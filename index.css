@@ -1,0 +1,112 @@
+.leftside, .rightside{
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside{
+        height: 100vh;
+    }
+    .rightside {
+        background: rgb(255, 255, 255);
+    }
+
+    .profile {
+        height: 577px;
+        width: 555px;
+    }
+}
+
+.leftside {
+    background:#ffc000;
+    flex-basis: 20%;
+}
+
+.rightside {
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    flex-basis: 80%;
+    height: 100vh; 
+    overflow: auto;
+}
+
+.profile {
+    height: 577px;
+    width: 555px;
+    margin-top: 150px;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color:#ffc000;
+    border-radius: 50px;
+    align-items: right;
+    margin-left:auto; 
+    margin-right:20px;
+    margin-top:20px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.button:hover {
+    color: black;
+    background-color: #ffdf33;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 13px;
+}
+
+.icon {
+    width: 52px;
+    height: 52px;
+}
+
+.maincontent {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: #ffdf33;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.email {
+    font-size: 15px;
+}
+
+.wrap {
+    display: flex;
+  }
